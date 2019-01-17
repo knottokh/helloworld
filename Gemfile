@@ -19,6 +19,13 @@ gem 'coffee-rails', ' ~> 4.2.2'
 gem 'jquery-rails'
 gem 'jquery-ui-rails', '6.0.1'
 
+group :development do
+  gem 'capistrano',         require: false
+  gem 'capistrano-rbenv', '~> 2.1'
+  gem 'capistrano-rails',   require: false
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano3-puma',   require: false
+end
 #bootstrap
 #gem 'popper_js', '~> 1.14.5'
 #gem 'bootstrap', '~> 4.2.1'
