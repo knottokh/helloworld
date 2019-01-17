@@ -5,11 +5,12 @@
 #set :repo_url, "git@github.com:knottokh/helloworld.git"
 
 # Change these
-server 'http://128.199.104.195/', port: 22, roles: [:web, :app, :db], primary: true
+server '128.199.104.195', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:knottokh/helloworld.git'
 set :application,     'helloworld'
 set :user,            'rails'
+set :password,         'f858222cc6b7d1fbbdd0f8b1b6c5f33a'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 
